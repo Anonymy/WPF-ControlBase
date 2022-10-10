@@ -8,6 +8,10 @@
     <ApplicationIcon>logo.ico</ApplicationIcon>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net5.0-windows|AnyCPU'">
+    <OutputPath>..\..\..\Product\Debug\</OutputPath>
+  </PropertyGroup>
+
   <ItemGroup>
     <Content Include="logo.ico" />
   </ItemGroup>

@@ -253,3 +253,4 @@ paket-files/
 *.bat
 
 !\Product\Debug\Component\*.dll
+/新建 文本文档.txt
